@@ -1,18 +1,18 @@
- root {
---cor-de-fundo: #1E1E1E;
---verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F5DEB3;
 }
-
-body { background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;   
+h1 {
+    text-align: center;
+    color: #8B4513;
 }
-.titulo-principal {
-    text-aling:left;
-    width: 100%;
-    font-size: 32px;
+.news {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #8B4513;
+    border-radius: 10px;
+    background-color: #FFF5EE;
+}
+.news h2, .news p {
+    color: #8B4513;
 }
